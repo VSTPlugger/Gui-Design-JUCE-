@@ -87,8 +87,8 @@ void PluginEditor::paint (Graphics& g)
 
     g.setGradientFill (ColourGradient (Colour (0xff3fcc14),
                                        220.0f, 250.0f,
-                                       Colours::blue,
-                                       220.0f, 200.0f,
+                                       Colour (0x3a0000ff),
+                                       220.0f, 220.0f,
                                        true));
     g.fillRoundedRectangle (70.0f, 100.0f, 300.0f, 300.0f, 10.000f);
 
@@ -225,7 +225,7 @@ BEGIN_JUCER_METADATA
                  snapPixels="8" snapActive="1" snapShown="1" overlayOpacity="0.330"
                  fixedSize="0" initialWidth="600" initialHeight="400">
   <BACKGROUND backgroundColour="ff212121">
-    <ROUNDRECT pos="70 100 300 300" cornerSize="10" fill=" radial: 220 250, 220 200, 0=ff3fcc14, 1=ff0000ff"
+    <ROUNDRECT pos="70 100 300 300" cornerSize="10" fill=" radial: 220 250, 220 220, 0=ff3fcc14, 1=3a0000ff"
                hasStroke="0"/>
     <TEXT pos="375 252 50 25" fill="solid: ffffffff" hasStroke="0" text="(Right)"
           fontname="Default font" fontsize="15" bold="0" italic="0" justification="36"/>
